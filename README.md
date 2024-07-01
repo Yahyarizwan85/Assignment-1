@@ -3,7 +3,7 @@
 length = 5
 width = 3
 area = length * width
-print(f"The area of the rectangle is: {area}")
+print("The area of the rectangle is:,area)
 
 # Output:
 # The area of the rectangle is: 15
@@ -69,12 +69,10 @@ else:
             
         fibo.append(n)
         
-    return fibo
+    return fibo 
+   num_input = int(input("Enter the number of terms : "))
+   print(f"Fibonacci Series up to {num_input} terms : {fibonacci(num_input)}")
 
-
-num_input = int(input("Enter the number of terms : "))
-
-print(f"Fibonacci Series up to {num_input} terms : {fibonacci(num_input)}")
 # Output:
 # Fibonacci Series up to 6 terms: 0, 1, 1, 2, 3, 5
 
